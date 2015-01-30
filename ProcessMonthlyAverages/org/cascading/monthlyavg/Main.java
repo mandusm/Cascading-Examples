@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-package com.amazon.mombergm.EMRSME.exercise3;
+package org.cascading.monthlyavg
 
 import java.util.Properties;
 

@@ -1,1 +1,30 @@
-This is to see if Git will pick up this readme for this folder.
+##Calculate Monthly Averages from Data.
+In this exercise, I wanted to calculate the Monthly Average Unpaid Total and display it  with the Full numeric Month. 
+The data set only contained date in a format MM/yy/dd and also contained duplicates and Null values.
+
+###Source Data
+```
+000000000001|12/01/2009|OTHER|5.5||4|356|355|08/2039|35620|0|N|||
+000000000001|01/01/2010|OTHER|5.5||5|355|354|08/2039|35620|0|N|||
+000000000001|02/01/2010|OTHER|5.5||6|354|353|08/2039|35620|0|N|||
+000000000001|03/01/2010|OTHER|5.5||7|353|352|08/2039|35620|0|N|||
+000000000001|04/01/2010|OTHER|5.5||8|352|351|08/2039|35620|0|N|||
+000000000001|05/01/2010|OTHER|5.5||9|351|350|08/2039|35620|0|N|||
+000000000001|06/01/2010|OTHER|5.5|174819.33|10|350|349|08/2039|35620|0|N|||
+000000000001|07/01/2010|OTHER|5.5|174615.6|11|349|348|08/2039|35620|0|N|||
+000000000001|08/01/2010|OTHER|5.5|174410.93|12|348|347|08/2039|35620|0|N|||
+000000000001|09/01/2010|OTHER|5.5|174205.32|13|347|346|08/2039|35620|0|N|||
+```
+
+###Expected Output
+```
+April  $177864.99
+August  $176928.00
+December  $170374.98
+February  $160378.58
+January  $171225.20
+July  $177007.30
+June  $177198.11
+```
+
+
